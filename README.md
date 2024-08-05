@@ -21,7 +21,7 @@
     Usage: Best when a sorted map is required, and you need to access elements in a specific order.
 
 
-   Summary of Differences
+Summary of Differences
 Map: General interface for key-value pairs.
 HashMap: Unordered, allows null keys/values, fast performance.
 SortedMap: Interface for maps that maintain sorted order.
