@@ -29,9 +29,3 @@ TreeMap: Implementation of SortedMap, ordered, does not allow null keys, moderat
 
 
 (A Red-Black Tree is a type of self-balancing binary search tree. Each node stores an extra bit representing "color" ("red" or "black") to ensure the tree remains balanced during insertions and deletions. The balancing is not perfect but is good enough to ensure that the tree's height is logarithmic relative to the number of nodes, which guarantees O(log n) time complexity for search, insert, and delete operations.)
-
-  20 (Black)
-       /  \
-    10 (Black)  30 (Black)
-   /  \    /  
-5 (Red)  15 (Red) 25 (Red)
