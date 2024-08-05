@@ -1,0 +1,20 @@
+Map <String, Integer> mapName = new Hashtable<String, Integer>();
+
+Outcome example: Combination map = {1121111101110=7011, 11121111011111110=513}
+
+First item = the key 
+Second item = the value 
+
+The key and value are a pair.
+
+To find a key in a map: 
+mapName.containsKey(keyName);
+
+Get a key from using an index:
+Object theKey = mapName.keySet().toArray()[index];
+
+Get a value for a specific key:
+Object theValue = mapName.get(theKey)
+
+If you want to create a sorted map (lowest to highest):
+SortedMap<Object,Double> mapName = new TreeMap<Object,Double>();
