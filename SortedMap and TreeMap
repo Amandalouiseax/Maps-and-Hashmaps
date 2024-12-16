@@ -1,0 +1,14 @@
+To create a sorted map (going from smallest to biggest value), create this map:
+SortedMap<Double, Long> finalResultMap = new TreeMap<>();
+
+Method if you want to add a number in the sorted map and in the same time count the numbers appereance:
+
+public static SortedMap<Double,Long> addNumber(double win, SortedMap<Double,Long> numberMap) {
+        if (numberMap.containsKey(win)) {
+            numberMap.put(win, numberMap.get(win) + 1);
+        } else {
+            numberMap.put(win, 1L);
+        }
+
+        return numberMap;
+    }
